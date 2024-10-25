@@ -1,0 +1,61 @@
+Titulo: Paso a paso para trabajar con el ejemplo
+
+Subtitulo: Comando para generar el microservicio
+  yo python
+
+Subtitulo: Comandos para levantar el contenedor de MYSQL
+
+docker build -t my-mysql-image .
+docker run --name my-mysql-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=dataBase -e MYSQL_PASSWORD=root -d my-mysql-image
+
+
+Subtitulo: Script Para base de datos de ejemplo
+
+CREATE TABLE `tbl_role` (
+  `cd_id` int NOT NULL AUTO_INCREMENT,
+  `nb_name` varchar(100) NOT NULL,
+  `nb_usercreated` varchar(100) NOT NULL,
+  `ts_created` datetime NOT NULL,
+  `nb_usermodified` varchar(100) NOT NULL,
+  `ts_modified` datetime NOT NULL,
+  `st_active` tinyint NOT NULL DEFAULT '1',
+  PRIMARY KEY (`cd_id`)
+);
+
+
+CREATE TABLE `tbl_user` (
+  `cd_id` int NOT NULL AUTO_INCREMENT,
+  `cd_role` int NOT NULL,
+  `nb_name` varchar(100) NOT NULL,
+  `nb_username` varchar(100) NOT NULL,
+  `nb_email` varchar(100) NOT NULL,
+  `nb_usercreated` varchar(100) NOT NULL,
+  `ts_created` datetime NOT NULL,
+  `nb_usermodified` varchar(100) NOT NULL,
+  `ts_modified` datetime NOT NULL,
+  `st_active` tinyint NOT NULL DEFAULT '1',
+  PRIMARY KEY (`cd_id`),
+  FOREIGN KEY(cd_role) REFERENCES tbl_role(cd_id)
+);
+
+
+
+insert into tbl_role(nb_name, nb_usercreated, ts_created, nb_usermodified, ts_modified, st_active)
+values ("Administrador", "system", curdate(), "system", curdate(), 1);
+ 
+insert into tbl_user(cd_role, nb_name, nb_username, nb_email, nb_usercreated, ts_created, nb_usermodified, ts_modified, st_active)
+values (1, "Ingrid Mendoza Cabrera", "Ingrid", "ingrid.mendoza@axity.com", "system", curdate(), "system", curdate(), 1),
+       (1, "Jonathan Aldana Herrera", "Jonathan", "jonathan.aldana@axity.com", "system", curdate(), "system", curdate(), 1);
+       
+      
+      
+SELECT * FROM tbl_user;
+
+
+
+Subtitulo: Comandos para levantar el contenedor de Python
+
+Nota: Si la bd está en un contenedor como es el caso, para conectarse ocupa host.docker.internal
+
+docker build -t my-python-app --build-arg APP_HOST=0.0.0.0 --build-arg APP_PORT=9091 --build-arg MYSQL_HOST=host.docker.internal --build-arg MYSQL_USER=root --build-arg MYSQL_PASSWORD=root --build-arg MYSQL_DB=dataBase .
+docker run --name my-app -p 9091:9091 my-python-app

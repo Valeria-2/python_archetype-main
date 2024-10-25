@@ -1,0 +1,20 @@
+{
+    "name": "generator-python",
+    "version": "1.0.0",
+    "description": "Proyecto generado para la configuración automática de microservicios con python",
+    "files": [
+      "generators"
+    ],
+    "keywords": [
+      "yeoman-generator"
+    ],
+    "author": "Ingrid Mendoza, Jonathan Aldana",
+    "license": "MIT",
+    "dependencies": {
+      "yeoman-generator": "^3.2.0"
+    },
+    "main": "index.js",
+    "scripts": {
+      "test": "pytest"
+    }
+  }
