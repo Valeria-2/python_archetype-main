@@ -73,7 +73,6 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 
  
  ## Docker
-
 -Docker es una plataforma de virtualización ligera que permite a los desarrolladores empaquetar aplicaciones y todas sus dependencias en contenedores. Un contenedor es una unidad estándar de software que agrupa el código de una aplicación y sus bibliotecas, configuraciones y dependencias necesarias para ejecutarse de manera consistente en cualquier entorno.
 
 -Docker automatiza el despliegue de aplicaciones dentro de contenedores.
