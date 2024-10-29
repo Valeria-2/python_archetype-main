@@ -12,11 +12,10 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 6. [Configuración](#Configuración)
 7. [Ejecución](#Ejecución)
 8. [Estructura del Framework](#Estructura_del_Framework)
-9. [Requisitos](#Requisitos)
-10. [Contribución](#Contribución)
-11. [Créditos](#Créditos)
-12. [Licencia](#Licencia)
-13. [Contacto](#Contacto)
+9. [Contribución](#Contribución)
+10. [Créditos](#Créditos)
+11. [Licencia](#Licencia)
+12. [Contacto](#Contacto)
 
 ## Requisitos
 
@@ -148,6 +147,8 @@ def UpdateAsync(self, model: ProyectModel) -> bool:
 ```
 
 ## Estructura del Framework
+
+
 1. **Api:** Encontramos los controladores y la configuración principal.
 2. **Facade:** Es el orquestador de servicios, en esta capa se utiliza la menor lógica posible y solo se realizan llamadas a la capa de servicio.
 3. **Services:** Integración de servicios a terceros, reglas del negocio y llamadas a los Data Access Object (DAO).
@@ -156,13 +157,25 @@ def UpdateAsync(self, model: ProyectModel) -> bool:
 6. **Common:** Encontramos los Data Transfer Object (Dtos), Excepciones, Enums y Funciones de validación que puedan ser reutilizados en todo el proyecto, con el proposito de reducir la complejidad ciclomática.
 7. **Test:** Capa para las pruebas unitarias (TDD).
 
-## Colaboradores
 
-**Jonathan Aldana Herrera**  
-*[jonathan.aldana@axity.com]*   
-**Ingrid Mendoza Cabrera**  
-*[ingrid.mendoza@axity.com]*  
+## Contribución 
+  Si la solución es de código abierto, incluye pautas sobre cómo contribuir al proyecto, como instrucciones para enviar solicitudes de extracción, reportar problemas, etc.
+  
+  Para realizar contribuciones a este proyecto se debe realizar un backup de la solución de manera local para que se adapte a las necesidades del proyecto en donde se desea implementar.
 
-## Licencia
+## Créditos
 
+-Jonathan Aldana Herrera 
+-Ingrid Mendoza Cabrera 
+ 
+
+## Licencia 
+
+Especifica la licencia bajo la cual se distribuye la solución y cualquier otra información legal relevante.
 [MIT](https://opensource.org/licenses/MIT)
+
+## Contacto
+
+-Jonathan Aldana Herrera     jonathan.aldana@axity.com
+-Ingrid Mendoza Cabrera      ingrid.mendoza@axity.com
+
