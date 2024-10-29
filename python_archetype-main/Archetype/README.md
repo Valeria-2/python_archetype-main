@@ -80,28 +80,29 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
     
 -El archivo Dockerfile contiene las instrucciones para crear la imagen. Una imagen es una plantilla que contiene el sistema operativo y las aplicaciones que se necesitan para ejecutar una aplicación. Las imágenes son versiones "pre-configuradas" de contenedores.
     
-    Pasos para desplegar la aplicación:
-    1. **Generar imagen**
+    **Pasos para desplegar la aplicación:**
+    
+    -Paso 1: Generar imagen
     ```sh
     docker build -t my-python-app --build-arg APP_HOST=0.0.0.0 --build-arg APP_PORT=9091 --build-arg MYSQL_HOST=111.111.1.11 --build-arg MYSQL_USER=root --build-arg MYSQL_PASSWORD=root --build-arg MYSQL_DB=dataBase .
     ```
-    2. **Consultar imagenes**
+    -Paso 2: Consultar imagenes
     ```sh
     docker images
     ```
-    3. **Ejecutar imagen**
+    Paso 3: Ejecutar imagen
     ```sh
     docker run --name my-app -p 9091:9091 my-python-app
     ```
-    4. **Mostrar contenedores en ejecución**
+    -Paso 4: Mostrar contenedores en ejecución
     ```sh
     docker ps
     ```
-    5. **Obtener los registros de un contenedor**
+    -Paso 5: Obtener los registros de un contenedor
     ```sh
     docker container logs [containerid]
     ```
-    6. **Aplicación desplegada**
+    -Paso 6: Aplicación desplegada
     - Validar que la aplicación se este ejecutando por el puerto 9091 http://127.0.0.1:9091/swagger/index.html
 
 ## Configuración Python
