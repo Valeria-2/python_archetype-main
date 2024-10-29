@@ -73,11 +73,11 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 
  
  ## Docker
--Docker es una plataforma de virtualización ligera que permite a los desarrolladores empaquetar aplicaciones y todas sus dependencias en contenedores. Un contenedor es una unidad estándar de software que agrupa el código de una aplicación y sus bibliotecas, configuraciones y dependencias necesarias para ejecutarse de manera consistente en cualquier entorno.
+- Docker es una plataforma de virtualización ligera que permite a los desarrolladores empaquetar aplicaciones y todas sus dependencias en contenedores. Un contenedor es una unidad estándar de software que agrupa el código de una aplicación y sus bibliotecas, configuraciones y dependencias necesarias para ejecutarse de manera consistente en cualquier entorno.
 
--Docker automatiza el despliegue de aplicaciones dentro de contenedores.
+- Docker automatiza el despliegue de aplicaciones dentro de contenedores.
     
--El archivo Dockerfile contiene las instrucciones para crear la imagen. Una imagen es una plantilla que contiene el sistema operativo y las aplicaciones que se necesitan para ejecutar una aplicación. Las imágenes son versiones "pre-configuradas" de contenedores.
+- El archivo Dockerfile contiene las instrucciones para crear la imagen. Una imagen es una plantilla que contiene el sistema operativo y las aplicaciones que se necesitan para ejecutar una aplicación. Las imágenes son versiones "pre-configuradas" de contenedores.
 
     
  ### Pasos para desplegar la aplicación:
