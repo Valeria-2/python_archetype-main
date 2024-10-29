@@ -4,19 +4,19 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 
 ## INDICE
 
-1. [Requisitos](#Requisitos)
+1. [Requerimientos de Software](#Requerimientos_de_Software)
 2. [Instalación del proyecto](#Instalación_del_proyecto).
-3. [Comandos](#Comandos)
+3. [Configuración CMD](#Configuración_CMD)
 4. [Docker](#Docker)
-5. [Configuración](#Configuración)
-6. [Ejecución](#Ejecución)
+5. [Configuración Python](#Configuración_Python)
+6. [Ejecución en la base de datos](#Ejecución_en_la_base_de_datos)
 7. [Estructura del Framework](#Estructura_del_Framework)
 8. [Contribución](#Contribución)
 9. [Créditos](#Créditos)
 10. [Licencia](#Licencia)
 11. [Contacto](#Contacto)
 
-## Requisitos
+## Requerimientos de Software
 
 * [Instalar NodeJs LTS](https://nodejs.org/es/)
 * Instalar Yeoman
@@ -42,7 +42,7 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 
 - Esto genera un proyecto llamado: [nombre ingresado]-service
 
-## Comandos
+## Configuración CMD
 
 1. **Crear entorno virtual:**
     `python -m venv env`
@@ -99,7 +99,7 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
     6. **Aplicación desplegada**
     - Validar que la aplicación se este ejecutando por el puerto 9091 http://127.0.0.1:9091/swagger/index.html
 
-## Configuración
+## Configuración Python
 
 1. **Configurar variables de entorno**  
 En el archivo **config.py** configure las variables de entorno para su proyecto.
@@ -118,7 +118,7 @@ class Config:
         f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}/{MYSQL_DB}"
     )
 ```
-## Ejecución
+## Ejecución en la base de datos
 
 1. **Operaciones a la base de datos**
   - Consulta de datos por llave primaria
@@ -175,6 +175,6 @@ Especifica la licencia bajo la cual se distribuye la solución y cualquier otra 
 
 ## Contacto
 
--Jonathan Aldana Herrera     jonathan.aldana@axity.com
--Ingrid Mendoza Cabrera      ingrid.mendoza@axity.com
+-Jonathan Aldana Herrera           jonathan.aldana@axity.com
+-Ingrid Mendoza Cabrera            ingrid.mendoza@axity.com
 
