@@ -150,13 +150,19 @@ def UpdateAsync(self, model: ProyectModel) -> bool:
 ## Estructura del Framework
 
 
-1. **Api:** Encontramos los controladores y la configuración principal.
-2. **Facade:** Es el orquestador de servicios, en esta capa se utiliza la menor lógica posible y solo se realizan llamadas a la capa de servicio.
-3. **Services:** Integración de servicios a terceros, reglas del negocio y llamadas a los Data Access Object (DAO).
-4. **Persistence:** Encontramos los Data Access Object (DAO), son las clases que interactúan con la base de datos.
-5. **Model:** Marco de mapeo relacional para acceder a base de datos.
-6. **Common:** Encontramos los Data Transfer Object (Dtos), Excepciones, Enums y Funciones de validación que puedan ser reutilizados en todo el proyecto, con el proposito de reducir la complejidad ciclomática.
-7. **Test:** Capa para las pruebas unitarias (TDD).
+- **Api:** Encontramos los controladores y la configuración principal.
+  
+- **Facade:** Es el orquestador de servicios, en esta capa se utiliza la menor lógica posible y solo se realizan llamadas a la capa de servicio.
+  
+- **Services:** Integración de servicios a terceros, reglas del negocio y llamadas a los Data Access Object (DAO).
+  
+- **Persistence:** Encontramos los Data Access Object (DAO), son las clases que interactúan con la base de datos.
+  
+- **Model:** Marco de mapeo relacional para acceder a base de datos.
+  
+- **Common:** Encontramos los Data Transfer Object (Dtos), Excepciones, Enums y Funciones de validación que puedan ser reutilizados en todo el proyecto, con el proposito de reducir la complejidad ciclomática.
+  
+- **Test:** Capa para las pruebas unitarias (TDD).
 
 
 ## Contribución 
