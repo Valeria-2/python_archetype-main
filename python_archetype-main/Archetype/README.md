@@ -82,27 +82,24 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
     
   **Pasos para desplegar la aplicación:**
     
-    - Paso 1: Generar imagen
-      - docker build -t my-python-app --build-arg APP_HOST=0.0.0.0 --build-arg APP_PORT=9091 --build-arg MYSQL_HOST=111.111.1.11 --build- 
+    * Paso 1: Generar imagen
+      - docker build -t my-python-app --build-arg APP_HOST=0.0.0.0 --build-arg APP_PORT=9091 --build-arg MYSQL_HOST=111.111.1.11 -build- 
       arg MYSQL_USER=root --build-arg MYSQL_PASSWORD=root --build-arg MYSQL_DB=dataBase .
     
-    - Paso 2: Consultar imagenes
-     - docker images
+    * Paso 2: Consultar imagenes
+      - docker images
     
-    Paso 3: Ejecutar imagen
-    ```sh
-    docker run --name my-app -p 9091:9091 my-python-app
+    * Paso 3: Ejecutar imagen
+      - docker run --name my-app -p 9091:9091 my-python-app
     
-    -Paso 4: Mostrar contenedores en ejecución
-    ```sh
-    docker ps
+    * Paso 4: Mostrar contenedores en ejecución
+      - docker ps
     
-    -Paso 5: Obtener los registros de un contenedor
-    ```sh
-    docker container logs [containerid]
+    * Paso 5: Obtener los registros de un contenedor
+      - docker container logs [containerid]
     
-    -Paso 6: Aplicación desplegada
-    - Validar que la aplicación se este ejecutando por el puerto 9091 http://127.0.0.1:9091/swagger/index.html
+    *Paso 6: Aplicación desplegada
+      - Validar que la aplicación se este ejecutando por el puerto 9091 http://127.0.0.1:9091/swagger/index.html
 
 ## Configuración Python
 
