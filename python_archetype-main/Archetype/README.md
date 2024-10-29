@@ -165,12 +165,14 @@ def UpdateAsync(self, model: ProyectModel) -> bool:
 ## Créditos
 
 -Jonathan Aldana Herrera 
+
 -Ingrid Mendoza Cabrera 
  
 
 ## Licencia 
 
 Especifica la licencia bajo la cual se distribuye la solución y cualquier otra información legal relevante.
+
 [MIT](https://opensource.org/licenses/MIT)
 
 ## Contacto
