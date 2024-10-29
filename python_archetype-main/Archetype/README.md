@@ -83,7 +83,7 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
   **Pasos para desplegar la aplicación:**
     
     -Paso 1: Generar imagen
-    ```sh
+    
     docker build -t my-python-app --build-arg APP_HOST=0.0.0.0 --build-arg APP_PORT=9091 --build-arg MYSQL_HOST=111.111.1.11 --build-arg MYSQL_USER=root --build-arg MYSQL_PASSWORD=root --build-arg MYSQL_DB=dataBase .
     
     -Paso 2: Consultar imagenes
