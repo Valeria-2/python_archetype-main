@@ -176,7 +176,8 @@ Especifica la licencia bajo la cual se distribuye la solución y cualquier otra 
 ## Contacto
 
 -Jonathan Aldana Herrera           jonathan.aldana@axity.com
+
 -Ingrid Mendoza Cabrera            ingrid.mendoza@axity.com
 
 
-![inicio](python_archetype-main/Archetype/assets/CReA.png)
+![inicio](./Archetype/assets/CReA.png)
