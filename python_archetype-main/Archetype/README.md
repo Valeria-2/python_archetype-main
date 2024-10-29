@@ -80,7 +80,7 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
     
 -El archivo Dockerfile contiene las instrucciones para crear la imagen. Una imagen es una plantilla que contiene el sistema operativo y las aplicaciones que se necesitan para ejecutar una aplicación. Las imágenes son versiones "pre-configuradas" de contenedores.
     
-  ## Pasos para desplegar la aplicación:##
+  ## Pasos para desplegar la aplicación:
     
     * Paso 1: Generar imagen
       - docker build -t my-python-app --build-arg APP_HOST=0.0.0.0 --build-arg APP_PORT=9091 --build-arg MYSQL_HOST=111.111.1.11 -build- 
