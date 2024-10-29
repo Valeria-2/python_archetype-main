@@ -1,6 +1,23 @@
 # Generator Python
 
-Proyecto generado para la configuración automática de microservicios con python. Los generadores de Python son funciones especiales que devuelven un iterador de Python . La creación de generadores de Python es similar a la definición de funciones normales , sin embargo, algunos de los detalles son ligeramente diferentes.
+Proyecto generado para la configuración automática de microservicios con python.
+Los generadores de Python son funciones especiales que devuelven un iterador de Python . La creación de generadores de Python es similar a la definición de funciones normales , sin embargo, algunos de los detalles son ligeramente diferentes.
+
+## INDICE
+
+1. [Requisitos](#Requisitos)
+2. [Instalación del proyecto](#Instalación_del_proyecto).
+3. [Comandos](#Comandos)
+4. [Requisitos](#Requisitos)
+5. [Docker](#Docker)
+6. [Configuración](#Configuración)
+7. [Ejecución](#Ejecución)
+8. [Estructura del Framework](#Estructura_del Framework)
+9. [Requisitos](#Requisitos)
+10. [Contribución](#Contribución)
+11. [Créditos](#Créditos)
+12. [Licencia](#Licencia)
+13. [Contacto](#Contacto)
 
 ## Requisitos
 
@@ -12,7 +29,7 @@ Proyecto generado para la configuración automática de microservicios con pytho
 * Ejecutar dentro de generator-python/
     `npm link`
 
-## Instalar proyecto
+## Instalación del proyecto
 
 - Ejecutar el comando: `yo python`  
 
@@ -104,7 +121,7 @@ class Config:
         f"mysql+mysqlconnector://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}/{MYSQL_DB}"
     )
 ```
-## ¿Cómo usarlo?
+## Ejecución
 
 1. **Operaciones a la base de datos**
   - Consulta de datos por llave primaria
@@ -131,7 +148,7 @@ def UpdateAsync(self, model: ProyectModel) -> bool:
         return True
 ```
 
-## Capas del proyecto
+## Estructura del Framework
 1. **Api:** Encontramos los controladores y la configuración principal.
 2. **Facade:** Es el orquestador de servicios, en esta capa se utiliza la menor lógica posible y solo se realizan llamadas a la capa de servicio.
 3. **Services:** Integración de servicios a terceros, reglas del negocio y llamadas a los Data Access Object (DAO).
