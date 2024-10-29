@@ -7,15 +7,14 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 1. [Requisitos](#Requisitos)
 2. [Instalación del proyecto](#Instalación_del_proyecto).
 3. [Comandos](#Comandos)
-4. [Requisitos](#Requisitos)
-5. [Docker](#Docker)
-6. [Configuración](#Configuración)
-7. [Ejecución](#Ejecución)
-8. [Estructura del Framework](#Estructura_del_Framework)
-9. [Contribución](#Contribución)
-10. [Créditos](#Créditos)
-11. [Licencia](#Licencia)
-12. [Contacto](#Contacto)
+4. [Docker](#Docker)
+5. [Configuración](#Configuración)
+6. [Ejecución](#Ejecución)
+7. [Estructura del Framework](#Estructura_del_Framework)
+8. [Contribución](#Contribución)
+9. [Créditos](#Créditos)
+10. [Licencia](#Licencia)
+11. [Contacto](#Contacto)
 
 ## Requisitos
 
