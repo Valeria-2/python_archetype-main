@@ -19,6 +19,9 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 ## Requerimientos de Software
 
 * Instalar NodeJs LTS : (https://nodejs.org/es/)
+  
+-Nota: las siguientes ejecuciones se instalan por líneas de comando.
+  
 * Instalar Yeoman
     `npm install -g yo`
 * Descargar dependencias 
