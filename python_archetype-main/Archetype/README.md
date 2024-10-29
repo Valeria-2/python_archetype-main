@@ -1,7 +1,7 @@
 # Generator Python
 
 Proyecto generado para la configuración automática de microservicios con python.
-Los generadores de Python son funciones especiales que devuelven un iterador de Python . La creación de generadores de Python es similar a la definición de funciones normales , sin embargo, algunos de los detalles son ligeramente diferentes.
+Los generadores de Python son funciones especiales que devuelven un iterador de Python.La creación de generadores de Python es similar a la definición de funciones normales , sin embargo, algunos de los detalles son ligeramente diferentes.
 
 ## INDICE
 
@@ -12,7 +12,7 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 5. [Docker](#Docker)
 6. [Configuración](#Configuración)
 7. [Ejecución](#Ejecución)
-8. [Estructura del Framework](#Estructura_del Framework)
+8. [Estructura del Framework](#Estructura_del_Framework)
 9. [Requisitos](#Requisitos)
 10. [Contribución](#Contribución)
 11. [Créditos](#Créditos)
