@@ -68,8 +68,8 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 8. **Desactivar el entorno virtual:**
     `deactivate`
 
-
-    ## Docker
+ 
+ ## Docker
 
     Docker automatiza el despliegue de aplicaciones dentro de contenedores.
     
