@@ -179,4 +179,4 @@ Especifica la licencia bajo la cual se distribuye la solución y cualquier otra 
 -Ingrid Mendoza Cabrera            ingrid.mendoza@axity.com
 
 
-![inicio](python_archetype-main/Archetype/assetsCReA.png)
+![inicio](python_archetype-main/Archetype/assets/CReA.png)
