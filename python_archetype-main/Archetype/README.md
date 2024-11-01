@@ -59,6 +59,8 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 3. **Instalar los paquetes del archivo requirements.tx, requeridos en nuestro entorno virtual:**
     `pip install -r ./requirements.txt`
 
+![inicio](./assets/requiriments.png)
+
 4. **En listar los paquetes instalados en el entorno virtual:**
     `pip list`
 
