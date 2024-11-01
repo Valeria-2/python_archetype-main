@@ -42,6 +42,7 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
   "port": 9090
 }
 ```
+![inicio](./assets/config.png)
 
 - Esto genera un proyecto llamado: [nombre ingresado]-service
 
