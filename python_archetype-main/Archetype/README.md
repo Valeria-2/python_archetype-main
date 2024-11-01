@@ -72,6 +72,8 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 6. **Ejecutar pruebas unitarias**
     `pytest TestProyectFacade.py`
 
+![inicio](./assets/pruebas.png)
+
 7. **Guarda todos los paquetes instalos en nuestro entorno virtual en requirements.txt**
     `pip freeze > requirements.txt`
 
