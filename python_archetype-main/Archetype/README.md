@@ -68,7 +68,7 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 5. **Ejecutar servicio:**
     `python ./index.py`
 
-![inicio](./assets/index py.png)
+![inicio](./assets/index_py.png)
 
 6. **Ejecutar pruebas unitarias**
     `pytest TestProyectFacade.py`
