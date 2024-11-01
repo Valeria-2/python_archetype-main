@@ -54,6 +54,8 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 2. **Activar entorno virtual:**
     `env\Scripts\activate`
 
+ ![inicio](./assets/env.png)
+
 3. **Instalar los paquetes del archivo requirements.tx, requeridos en nuestro entorno virtual:**
     `pip install -r ./requirements.txt`
 
@@ -62,6 +64,8 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 
 5. **Ejecutar servicio:**
     `python ./index.py`
+
+![inicio](./assets/index_py.png)
 
 6. **Ejecutar pruebas unitarias**
     `pytest TestProyectFacade.py`
