@@ -60,7 +60,6 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
     `pip install -r ./requirements.txt`
 
 ![inicio](./assets/install_req.png)
-![inicio](./assets/requiriments.png)
 
 4. **En listar los paquetes instalados en el entorno virtual:**
     `pip list`
@@ -75,6 +74,8 @@ Los generadores de Python son funciones especiales que devuelven un iterador de 
 
 7. **Guarda todos los paquetes instalos en nuestro entorno virtual en requirements.txt**
     `pip freeze > requirements.txt`
+
+![inicio](./assets/requiriments.png)
 
 8. **Desactivar el entorno virtual:**
     `deactivate`
